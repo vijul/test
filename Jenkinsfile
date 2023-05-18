@@ -22,6 +22,7 @@ pipeline {
     stage('test') {
       steps {
         sleep 10
+        git(url: 'https://github.com/vijul/test.git', branch: 'main')
       }
     }
 
