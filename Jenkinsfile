@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh '''Hello World
-
-'''
+        sh 'echo "hello world"'
         sh '''hello world 
 '''
         sh 'ech2 "hello world"'
