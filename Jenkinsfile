@@ -6,7 +6,7 @@ pipeline {
         stage('error') {
           steps {
             sh 'echo "hello world"'
-            sh 'ech2 "hello world"'
+            sh 'echo "hello world"'
           }
         }
 
