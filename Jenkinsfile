@@ -6,6 +6,9 @@ pipeline {
         sh '''Hello World
 
 '''
+        sh '''hello world 
+'''
+        sh 'ech2 "hello world"'
       }
     }
 
