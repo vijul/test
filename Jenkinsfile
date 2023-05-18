@@ -22,6 +22,7 @@ pipeline {
     stage('test') {
       steps {
         sleep 10
+        sh 'ech2 "hello world"'
       }
     }
 
