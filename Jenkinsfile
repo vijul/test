@@ -22,7 +22,6 @@ pipeline {
     stage('test') {
       steps {
         sleep 10
-        sh 'hello world'
       }
     }
 
